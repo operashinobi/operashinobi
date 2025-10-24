@@ -1,7 +1,7 @@
 ﻿
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = '7a918953-753f-4f77-aac3-dd998fe482ea';
 let proxyIP = '';
 //let sub = '';
 let subConverter = atob('U3ViQXBpLkNtbGlVc3NzUy5OZXQ=');
@@ -5846,4 +5846,5 @@ async function 解析地址端口(proxyIP) {
         端口 = parseInt(proxyIP.slice(colonIndex + 1), 10) || 端口;
     }
     return [地址, 端口];
+
 }
